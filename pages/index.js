@@ -6,6 +6,7 @@ import About from '@/Components/About/About';
 import Tcarousel from '@/Components/TeamCarousel/Tcarousel';
 import Sponser from "@/Components/Sponser/sponser";
 import Contact from "@/Components/Contact/contact"
+import Footer from "@/Components/Footer/Footer";
 const blackopsone = Black_Ops_One({
   subsets: ['latin'],
   weight: ['400']
@@ -31,6 +32,7 @@ const index = () => {
         {/*Sponser */}
         <Sponser />
         <Contact />
+        <Footer />
     </div>
   )
 }
